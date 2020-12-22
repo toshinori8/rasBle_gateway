@@ -1,0 +1,19 @@
+{
+  "name": "blescan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "n.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-6",
+    "mqtt": "^4.2.6",
+    "noble": "^1.9.1",
+    "node-beacon-scanner": "^0.2.2",
+    "socket.io-client": "^3.0.4"
+  }
+}
