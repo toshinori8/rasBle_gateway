@@ -3,8 +3,8 @@ var noble = require('noble');
 //var addressToTrack = '582d3410d61e';
 var mqtt = require('mqtt')
 var client = mqtt.connect('mqqt://192.168.8.105', {
-	username: "pi",
-	password: "root"
+	username: "****",
+	password: "****"
 })
 /*
 socket.on('connect', function(){  
