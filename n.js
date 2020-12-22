@@ -2,8 +2,8 @@ var noble = require('noble');
 //var socket = require('socket.io-client')('http://localhost/scanner');
 var mqtt = require('mqtt')
 var client = mqtt.connect('mqqt://192.168.8.105', {
-	username: "pi",
-	password: "root"
+	username: "****",
+	password: "****"
 })
 /*.  // For websocket future discovery of ble devices
  socket.on('connect', function(){  
